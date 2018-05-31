@@ -125,7 +125,7 @@ $ npm start
 
 ## Pages
 
-L'application doit comporter 2 pages, une page de login et une page carte contenant une carte Google Map et seulement accessible aux utilisaterus connectés.
+L'application doit comporter 2 pages, une page de login et une page carte contenant une carte Google Map et seulement accessible aux utilisateurs connectés.
 
 ### Page de login
 
@@ -151,19 +151,19 @@ Si l'utilisateur rentre les informations ci-dessous, il sera redirigé vers la p
 
 La page Carte doit contenir une carte Google Map centrée sur la géolocalisation du navigateur (navigator.geolocation.getCurrentPosition), afficher des markers aux positions ou se trouvent les agents (voir Données de test) et contenir un bouton pour se déconnecter.
 
-**Attention :** L'agent ayant la meilleure note moyenne devra avoir un marker d'une couleur diférrente.
+**Attention :** L'agent ayant la meilleure note moyenne devra avoir un marker d'une couleur différrente.
 
 Lors du click sur un marker, une pop-in devra s'afficher. Elle contiendra : 
 
 * Le nom + prénom de l'agent
 * Son numéro de téléphone
 * Sa note moyenne
-* La liste des commentaires que l'agent a reçu
+* La liste des commentaires que l'agent a reçus
 * Un formulaire pour ajouter un nouveau commentaire (note + text + submit button)
 
 ## Consignes
 
-Ce test est a faire, bien entendu, en ReactJs et les maquettes que du devras intégrer se trouvent dans le dossier ``design/``.\
+Ce test est à faire, bien entendu, en ReactJs et les maquettes que du devras intégrer se trouvent dans le dossier ``design/``.\
 La seule contrainte technique que je te donne est d'utiliser un reducer pour charger les données de test, comme avec une vraie API, sinon, tu es libre :D
 \
 \
